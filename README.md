@@ -38,7 +38,7 @@ To manage execution contexts in correct order, Call Stack is used.
 
 Always draw Execution Context table before analysing outputs. Check hoisting.js for examples
 
-Remember!!! Only normal functions, example: function fx(){} will have its code as value during memory creation phase
+Remember!!! Only normal functions, example: function fx(){} will have its code as value during memory creation phase.<br>
 Any other type of functions(arrow or other way), example : var fx=()=>{} or var fx = function(){} will have undefined as their value during memory creation phase. Only during code execution phase, their value is assigned.
 
 
