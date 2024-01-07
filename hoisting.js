@@ -3,15 +3,20 @@ console.log("Uncomment each version of code to know more about hoisting")
 
 
 /*
-//Normal ones
 
+//Normal ones
+var y;
 var x = 5;
 function printName(){
-    console.log("Anush");
+    console.log("x");
+    //return printName;
 }
 
 printName();
 console.log(x);
+console.log(printName)
+console.log(printName()) // printName() executes the code block of the function and if the block doesn't return anything, then console.log of it will be undefined
+console.log(y);
 
 
 //Output
@@ -26,11 +31,11 @@ console.log(x);
 
         phase 2         x:5
                         printName: f printName()                
-
-
+                        
 
 
 */
+
 
 /*
 printName();
